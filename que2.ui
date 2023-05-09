@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.103448 rgba(234, 139, 255, 229), stop:1 rgba(67, 60, 255, 255));</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>531</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(255, 255, 255, 0));</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Бюджет мощности – запас мощности на приеме сигнала. Расчет происходит по формуле: &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image002.png&quot; width=&quot;484&quot; height=&quot;18&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;  &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image004.png&quot; width=&quot;484&quot; height=&quot;52&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Где &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image006.png&quot; width=&quot;15&quot; height=&quot;17&quot; /&gt; – количество неразъемный соединений,&lt;span style=&quot; font-family:'Cambria Math,serif'; font-style:italic;&quot;&gt; &lt;/span&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image008.png&quot; width=&quot;16&quot; height=&quot;19&quot; /&gt;&lt;span style=&quot; font-family:'Cambria Math,serif';&quot;&gt;- количество разъемных соединений,&lt;/span&gt; &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image010.png&quot; width=&quot;13&quot; height=&quot;17&quot; /&gt; – километрическое затухание, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image012.png&quot; width=&quot;9&quot; height=&quot;17&quot; /&gt; – строительная длина кабеля, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image014.png&quot; width=&quot;19&quot; height=&quot;17&quot; /&gt; – потери на неразъемных соединениях, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image016.png&quot; width=&quot;19&quot; height=&quot;19&quot; /&gt; – потери на сварных соединениях, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image018.png&quot; width=&quot;20&quot; height=&quot;17&quot; /&gt; – дополнительные потери, например на пассивных компонентах. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image020.png&quot; width=&quot;23&quot; height=&quot;17&quot; /&gt; должен находится в распознаваемом приемником диапазоне мощности, если это не так, то требуется установка усилителей или аттенюаторов. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;В калькуляторе приняты усредненные значения для некоторых параметров.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;потери на сварных соединениях 1 дБ, потери на разъёмных соединениях 0.9 дБ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

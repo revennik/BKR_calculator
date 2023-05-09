@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.103448 rgba(234, 139, 255, 229), stop:1 rgba(67, 60, 255, 255));</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>531</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(255, 255, 255, 0));</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Регенерационный участок – расстояние после преодоления которого потребуется усиление, или восстановление сигнала. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;РУ, ограниченный затуханием, вычисляется из формулы: &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image002.png&quot; width=&quot;484&quot; height=&quot;51&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Где Э – энергетический потенциал системы, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image004.png&quot; width=&quot;14&quot; height=&quot;17&quot; /&gt; – энергетический эксплуатационный ресурс, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image006.png&quot; width=&quot;9&quot; height=&quot;17&quot; /&gt; – коэффициент затухания в ОВ, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image008.png&quot; width=&quot;15&quot; height=&quot;19&quot; /&gt; – потери на разъемных соединениях (0.3 – 1.5 дБ), &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image010.png&quot; width=&quot;20&quot; height=&quot;19&quot; /&gt; - потери на неразъемных соединениях (0.05 – 0.1 дБ), &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image012.png&quot; width=&quot;20&quot; height=&quot;19&quot; /&gt; – строительная длина кабеля. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Энергетический эксплуатационный ресурс зависит от температурных изменений &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image014.png&quot; width=&quot;14&quot; height=&quot;17&quot; /&gt; (0.5 – 1.5 дБ) и временных ухудшений &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image016.png&quot; width=&quot;14&quot; height=&quot;17&quot; /&gt; (2-6 дБ). &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image018.png&quot; width=&quot;484&quot; height=&quot;32&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Энергетический потенциал системы равен десятичному логарифму разности мощности передатчика и приемника. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;  &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image020.png&quot; width=&quot;484&quot; height=&quot;38&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Где значения &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image022.png&quot; width=&quot;26&quot; height=&quot;19&quot; /&gt;и &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image024.png&quot; width=&quot;18&quot; height=&quot;19&quot; /&gt; указываются в паспорте аппаратуры. &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;РУ, ограниченный хроматической дисперсией, вычисляется по формуле: &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image026.png&quot; width=&quot;484&quot; height=&quot;33&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Где &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image028.png&quot; width=&quot;10&quot; height=&quot;17&quot; /&gt; – коэффициент хроматической дисперсии, а &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image030.png&quot; width=&quot;22&quot; height=&quot;19&quot; /&gt; – вычисляется выражением: &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image032.png&quot; width=&quot;484&quot; height=&quot;32&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Где В – скорость передачи в Гбит/с, &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image034.png&quot; width=&quot;10&quot; height=&quot;17&quot; /&gt; – параметр пс/(нм*км), зависящий от вида модуляции, при использовании NRZ K=10400 пс/(нм*км). &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;РУ, ограниченный хроматической дисперсией, вычисляется по формуле: &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image036.png&quot; width=&quot;484&quot; height=&quot;32&quot; /&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Где &lt;img src=&quot;file:////Users/artemshebanov/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image034.png&quot; width=&quot;10&quot; height=&quot;17&quot; /&gt; – параметр пс/(нм*км), зависящий от вида модуляции, при использовании NRZ K=10400 пс/(нм*км). &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;В калькуляторе приняты усредненные значения для некоторых параметров.&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;энергетический эксплутационный ресурс равен 5 дБ, потери на сварных соединениях 1 дБ, потери на разъёмных соединениях 0.9 дБ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
